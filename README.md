@@ -24,36 +24,42 @@ Pattern | Description
 Many of the design patterns are in use today originate from the famous Gang of Four book: **"Design Patterns: Elements of Reusable Object-Oriented Software"** by Eric Gamma, Richard Helm, Ralph Johnson, and John Vlissides. 
 
 # 1. Creational Design Patterns
-## 1.1. Factory
-- Defines an interface for creating an object
-- Defers the actual creation to subclasses
-- Localizes the knowledge of concrete instances
-
-
-**Class diagram**
-
-![factory](https://www.protechtraining.com/static/bookshelf/java_fundamentals_tutorial/images/450xNxFactoryMethodPattern.png.pagespeed.ic.-MneL23Mz0.webp)
-
-**Implementation**: [Factory](http://github.com)
-
+## 1.1. Factory Method
 **When to use**
 
 - When the implementation of an interface or an abstract class is expected to change frequently
 - When the current implementation cannot comfortably accommodate new change
 - When the initialization process is relatively simple, and the constructor only requires a handful of parameters
 
-## 1.2. Abstract Factory
-- Interface for creating family of related objects
-- Clients are independent of how the objects are created, composed, and represented
-- System is configured with one of multiple families of products
+**Class diagram**
+
+![factory_method](https://www.protechtraining.com/static/bookshelf/java_fundamentals_tutorial/images/450xNxFactoryMethodPattern.png.pagespeed.ic.-MneL23Mz0.webp)
+
+**Implementation**: [Factory Method](https://github.com/NickDemianchuk/java_design_patterns/tree/master/creational/factory/src/com/demianchuk/dp)
+
+
+## 1.2. Abstract Factory 
+**When to use**
+- The client should be independent of how the products are created and composed in the system
+- The system consists of multiple families of products, and these families are designed to be used together
+- We need a run-time value to construct a particular dependency
 
 **Class diagram**
 
-![abstract_factory](https://www.protechtraining.com/static/bookshelf/java_fundamentals_tutorial/images/450xNxAbstractFactoryPattern.png.pagespeed.ic.XabjB4iN_o.webp)
+![abstract_factory](https://www.tutorialspoint.com/design_pattern/images/abstractfactory_pattern_uml_diagram.jpg)
 
-**Implementation**: [Abstract Factory](http://github.com)
+**Implementation**: [Abstract Factory](https://github.com/NickDemianchuk/java_design_patterns/tree/master/creational/abstract_factory/src/com/demianchuk/dp)
+
+
 
 ## 1.3. Singleton
+**When to use**
+- For resources that are expensive to create (like database connection objects)
+- It’s good practice to keep all loggers as Singletons which increases performance
+- Classes which provide access to configuration settings for the application
+- Classes that contain resources that are accessed in shared mode
+
+**Specifics** 
 - Allows only one instance of a given class
   * The class holds a reference to its only instance
   * Lazy (on request) or static initialization (on load)
@@ -68,7 +74,9 @@ Many of the design patterns are in use today originate from the famous Gang of F
 
 ![singleton](https://www.tutorialspoint.com/design_pattern/images/singleton_pattern_uml_diagram.jpg)
   
-**Implementation**: [Singleton](http://github.com)
+**Implementation**: [Singleton](https://github.com/NickDemianchuk/java_design_patterns/tree/master/creational/singleton/src/com/demianchuk/dp)
+
+
 
 # 2. Structural Design Patterns
 ## 2.1. Decorator
