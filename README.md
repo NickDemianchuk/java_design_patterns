@@ -1,6 +1,6 @@
 # Overview
 
-**Design Pattern** - a general, reusable solution to a commonly occurring problem within a given context in software design. It is a blueprint for how to solve a problem that can be used in many different situations. 
+**Design Pattern** - a general, reusable solution to a commonly occurring problem within a given context. It is a blueprint for how to solve a problem that can be used in many different situations. 
 
 **All patterns have:**
  - name
@@ -34,7 +34,7 @@ Many of the design patterns are in use today originate from the famous Gang of F
 
 **Class diagram**
 
-![factory](https://www.protechtraining.com/static/bookshelf/java_fundamentals_tutorial/images/450xNxFactoryMethodPattern.png.pagespeed.ic.-MneL23Mz0.webp)
+![factory](https://www.researchgate.net/profile/Yann-Gael_Gueheneuc/publication/249885094/figure/fig13/AS:532128962433024@1503880839211/Factory-Method-design-pattern-UML-like-class-diagram.png)
 
 **Implementation**: [Factory](http://github.com)
 
@@ -48,7 +48,7 @@ Many of the design patterns are in use today originate from the famous Gang of F
 
 **Class diagram**
 
-![abstract_factory](https://www.protechtraining.com/static/bookshelf/java_fundamentals_tutorial/images/450xNxAbstractFactoryPattern.png.pagespeed.ic.XabjB4iN_o.webp)
+![abstract_factory](https://www.tutorialspoint.com/design_pattern/images/abstractfactory_pattern_uml_diagram.jpg)
 
 **Implementation**: [Abstract Factory](http://github.com)
 
@@ -85,7 +85,7 @@ Many of the design patterns are in use today originate from the famous Gang of F
 
 **Class diagram**
 
-![decorator](https://www.protechtraining.com/static/bookshelf/java_fundamentals_tutorial/images/450xNxDecoratorPattern.png.pagespeed.ic.LI0WkJdZUd.webp)
+![decorator](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Decorator_UML_class_diagram.svg/400px-Decorator_UML_class_diagram.svg.png)
 
 **Implementation**: [Decorator](http://github.com)
 
@@ -97,7 +97,7 @@ Many of the design patterns are in use today originate from the famous Gang of F
 
 **Class diagram**
 
-![adapter](https://www.baeldung.com/wp-content/uploads/2017/09/Rpt_ER5p.jpg)
+![adapter](https://www.dofactory.com/images/diagrams/net/adapter.gif)
 
 **Implementation**: [Adapter](http://github.com)
 
@@ -118,7 +118,7 @@ Many of the design patterns are in use today originate from the famous Gang of F
 
 **Class diagram**
 
-![visitor]()
+![visitor](https://www.baeldung.com/wp-content/uploads/2018/06/Visitor-UML.png)
 
 **Implementation**: [Visitor](http://github.com)
 

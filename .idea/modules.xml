@@ -3,9 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/creational/abstract_factory/abstract_factory.iml" filepath="$PROJECT_DIR$/creational/abstract_factory/abstract_factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/structural/adapter/adapter.iml" filepath="$PROJECT_DIR$/structural/adapter/adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/structural/composite/composite.iml" filepath="$PROJECT_DIR$/structural/composite/composite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/structural/decorator/decorator.iml" filepath="$PROJECT_DIR$/structural/decorator/decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/creational/factory/factory.iml" filepath="$PROJECT_DIR$/creational/factory/factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_design_patterns.iml" filepath="$PROJECT_DIR$/java_design_patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/behavioral/observer/observer.iml" filepath="$PROJECT_DIR$/behavioral/observer/observer.iml" />
       <module fileurl="file://$PROJECT_DIR$/creational/singleton/singleton.iml" filepath="$PROJECT_DIR$/creational/singleton/singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/behavioral/strategy/strategy.iml" filepath="$PROJECT_DIR$/behavioral/strategy/strategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/behavioral/visitor/visitor.iml" filepath="$PROJECT_DIR$/behavioral/visitor/visitor.iml" />
     </modules>
   </component>
 </project>
