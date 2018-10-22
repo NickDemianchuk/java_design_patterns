@@ -1,6 +1,6 @@
 package com.demianchuk.dp;
 
-public class Client {
+public class SingletonDemo {
     public static void main(String[] args) {
         // illegal construct
 

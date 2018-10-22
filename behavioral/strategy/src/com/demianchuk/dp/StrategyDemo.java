@@ -1,6 +1,8 @@
 package com.demianchuk.dp;
 
-public class CompositeDemo {
+public class StrategyDemo {
     public static void main(String[] args) {
+
     }
+
 }
