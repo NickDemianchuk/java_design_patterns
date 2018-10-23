@@ -1,5 +1,7 @@
 public class AdapterDemo {
     public static void main(String[] args) {
-        // converting not acceptable interface
+        Priceable iPhoneXS = new IPhoneXS();
+        PriceableAdapter adapter = new PriceableAdapterImpl(iPhoneXS);
+        System.out.println(adapter.getPriceInEUR());
     }
 }
