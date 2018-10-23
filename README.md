@@ -38,7 +38,7 @@ Many of the design patterns that are in use today originate from the famous Gang
 
 ![factory](https://www.researchgate.net/profile/Yann-Gael_Gueheneuc/publication/249885094/figure/fig13/AS:532128962433024@1503880839211/Factory-Method-design-pattern-UML-like-class-diagram.png)
 
-**Implementation**: [Factory](http://github.com)
+**Implementation**: [Factory](https://github.com/NickDemianchuk/java_design_patterns/tree/master/creational/factory)
 
 
 ## 1.2. Abstract Factory
@@ -56,7 +56,7 @@ The **Abstract Factory** pattern provides a way to encapsulate a group of indivi
 
 ![abstract_factory](https://www.tutorialspoint.com/design_pattern/images/abstractfactory_pattern_uml_diagram.jpg)
 
-**Implementation**: [Abstract Factory](http://github.com)
+**Implementation**: [Abstract Factory](https://github.com/NickDemianchuk/java_design_patterns/tree/master/creational/abstract_factory)
 
 ## 1.3. Singleton
 The **Singleton** pattern is a design pattern that restricts the instantiation of a class to one object.
@@ -82,7 +82,7 @@ The **Singleton** pattern is a design pattern that restricts the instantiation o
 
 ![singleton](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Singleton_UML_class_diagram.svg/750px-Singleton_UML_class_diagram.svg.png)
   
-**Implementation**: [Singleton](http://github.com)
+**Implementation**: [Singleton](https://github.com/NickDemianchuk/java_design_patterns/tree/master/creational/singleton)
 
 # 2. Structural Design Patterns
 ## 2.1. Decorator
@@ -101,7 +101,7 @@ The **Decorator** pattern is a design pattern that allows behavior to be added t
 
 ![decorator](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Decorator_UML_class_diagram.svg/400px-Decorator_UML_class_diagram.svg.png)
 
-**Implementation**: [Decorator](http://github.com)
+**Implementation**: [Decorator](https://github.com/NickDemianchuk/java_design_patterns/tree/master/structural/decorator)
 
 ## 2.2. Adapter
 The **Adapter** pattern is a design pattern (also known as wrapper, an alternative naming shared with the decorator pattern) that allows the interface of an existing class to be used as another interface.
@@ -120,7 +120,7 @@ The **Adapter** pattern is a design pattern (also known as wrapper, an alternati
 
 ![adapter](https://upload.wikimedia.org/wikipedia/commons/d/d7/ObjectAdapter.png)
 
-**Implementation**: [Adapter](http://github.com)
+**Implementation**: [Adapter](https://github.com/NickDemianchuk/java_design_patterns/tree/master/structural/adapter)
 
 ## 2.3. Composite
 **When to use:**
@@ -136,7 +136,7 @@ The **Adapter** pattern is a design pattern (also known as wrapper, an alternati
 
 ![composite](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Composite_UML_class_diagram_%28fixed%29.svg/900px-Composite_UML_class_diagram_%28fixed%29.svg.png)
 
-**Implementation**: [Composite](http://github.com)
+**Implementation**: [Composite](https://github.com/NickDemianchuk/java_design_patterns/tree/master/structural/composite)
 
 # 3. Behavioral Design Patterns
 ## 3.1. Strategy
@@ -153,7 +153,7 @@ The **Strategy** pattern (also known as the policy pattern) is a behavioral soft
 
 ![strategy](https://upload.wikimedia.org/wikipedia/commons/3/39/Strategy_Pattern_in_UML.png)
 
-**Implementation**: [Strategy](http://github.com)
+**Implementation**: [Strategy](https://github.com/NickDemianchuk/java_design_patterns/tree/master/behavioral/strategy)
 
 ## 3.2. Visitor
 The **Visitor** design pattern is a way of separating an algorithm from an object structure on which it operates. 
@@ -170,7 +170,7 @@ The **Visitor** design pattern is a way of separating an algorithm from an objec
 
 ![visitor](https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Visitor_design_pattern.svg/430px-Visitor_design_pattern.svg.png)
 
-**Implementation**: [Visitor](http://github.com)
+**Implementation**: [Visitor](https://github.com/NickDemianchuk/java_design_patterns/tree/master/behavioral/visitor)
 
 **Downsides:**
 - Its usage makes it more difficult to maintain the code if we need to add new elements to the object’s structure
@@ -190,7 +190,7 @@ The **Visitor** design pattern is a way of separating an algorithm from an objec
 ![observer](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Observer_w_update.svg/1200px-Observer_w_update.svg.png)
 
 
-**Implementation**: [Observer](http://github.com)
+**Implementation**: [Observer](https://github.com/NickDemianchuk/java_design_patterns/tree/master/behavioral/observer)
 
 **Downsides:**
 - Memory leaks caused by [Lapsed listener problem](https://en.wikipedia.org/wiki/Lapsed_listener_problem) because of explicit register and unregistering of observers
